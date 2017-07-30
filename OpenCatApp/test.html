@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<title>首页</title>
+		<script src="https://unpkg.com/vue"></script>
+		<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+  			<!--{{ message }}-->
+		</div>
+		<button id="btn">点击</button>
+		
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init();
+/*			var myData="Hello Vue";
+			var app = new Vue({
+					  el: '#app',
+					  data: {
+					    message:myData,
+					  }
+				})*/
+				$(function(){
+					$("#btn").on("click",function(){
+						$.ajax({
+							type:"get",
+							url:"http://localhost:8020/test.action",
+							async:true,
+							dataType: 'jsonp',
+							success:function(result){
+								console.log(result);
+							}
+						});
+					})
+				})
+		</script>
+	</body>
+
+</html>

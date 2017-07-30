@@ -1,0 +1,221 @@
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+p{color:#000;}
+/*首页*/
+.homepage-grid-wrapper{
+	padding: 10px 0 !important;
+}
+.homepage-grid-wrapper>li{
+	padding: 0 !important;
+	width: 25%;
+}
+.homepage-grid-wrapper>li>a{
+	padding: 5px 0 !important;
+}
+.homepage-article-list img.mui-pull-right{
+	max-height: 80px;
+    overflow: hidden;
+}
+.home-table-list{
+	height: 30px;
+	margin-bottom: 5px;
+}
+.home-table-list>.mui-pull-left{
+	height:30px;
+	line-height: 30px;
+}
+.home-table-list>.mui-pull-left img{
+	height: 30px;
+    border-radius: 50%;
+}
+.home-table-list>.mui-pull-left>.pic{
+	display:inline-block;
+	font-size: 0;
+    height: 30px;
+}
+.home-table-list>.mui-pull-left>span{
+	font-size: 12px;
+    color: #8f8f94;
+    margin-left: 6px;
+}
+.home-article-item{
+	margin:0 !important;
+	padding: 0 !important;
+}
+.home-table-list>.mui-pull-right{
+    height: 20px;
+    line-height: 20px;
+    margin: 5px 0;
+}
+.home-table-list>.mui-pull-right>p{
+	padding-right: 8px;
+   	font-size: 12px;
+}
+.color1{
+	color: #fe9700;
+	border-right: 3px solid #fe9700; 
+}
+.color2{
+	color:#19cf8a;
+	border-right: 3px solid #19cf8a; 
+}
+.color3{
+	color:#f26765;
+	border-right: 3px solid #f26765; 
+}
+.color4{
+	color:#764f9c;
+	border-right: 3px solid #764f9c; 
+}
+.home-article-item .home-title{
+	font-size: 16px;
+    color: #222;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.home-article-item .desc{
+	color: #757575;
+	line-height: 1.1;
+    margin-right: 20px;
+}
+.home-article-item .piclist{
+	margin-top: 10px;
+}
+.home-article-item .piclist>.pic{
+	width:33%;
+	font-size:0;
+	display: inline-block;
+}
+.home-article-item .piclist>.pic>img{
+	display: block;
+	width: 100%;
+}
+.home-article-item .piclist2>.pic,.home-article-item .piclist3>.pic{
+	width:100%;
+}
+.home-article-item .piclist3>.pic>img{
+	width: 100%;
+    margin: 5px 0;
+}
+.homepage-grid-wrapper .mui-icon{
+	color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+.homepage-grid-wrapper .mui-icon-home{
+	background: #fe9700;
+}
+.homepage-grid-wrapper .mui-icon-email{
+	background:#f26765;
+}
+.homepage-grid-wrapper .mui-icon-chatbubble{
+	background:#6f68df;
+}
+.homepage-grid-wrapper .mui-icon-location{
+	background:#7f2d00;
+}
+.homepage-grid-wrapper .mui-icon-search{
+	background:#fd7a49;
+}
+.homepage-grid-wrapper .mui-icon-phone{
+	background:#f26765;
+}
+.homepage-grid-wrapper .mui-icon-starhalf{
+	background:#19cf8a;
+}
+.homepage-grid-wrapper .mui-icon-gear{
+	background:#7fd02b;
+}
+/*个人中心 mycenter*/
+.mycenter-header{
+	background: #303435;
+}
+.mycenter-header>h1{
+	color:#fff;
+	font-size: 16px;
+}
+.mycenter-header>a{
+	color: #918f90;
+}
+.mycenter-content{
+	background:#fff;
+}
+.mycenter-content .personal-info{
+	padding: 40px 20px 0;
+}
+.mycenter-content .portrait{
+	margin: 0 auto;
+    text-align: center;
+}
+.mycenter-content .portrait>img{
+	display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 50%;
+}
+.mycenter-content .mycenter-name{
+	width: 100%;
+    font-size: 20px;
+    padding: 15px 0 0;
+    text-align: center;
+    color: #222;
+    margin: 0;
+}
+.mycenter-content .mycenter-address{
+	font-size: 14px;
+    width: 100%;
+    text-align: center;
+    color: #a1a1a1;
+    margin: 0;
+}
+.mycenter-content .mycenter-desc{
+	padding-top: 20px;
+    width: 90%;
+    color: #a1a1a1;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+}
+.mycenter-content .mycenter-sum{
+	display: flex;
+	padding-bottom: 25px;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 25px;
+}
+.mycenter-content .mycenter-sum .mycenter-sum-item{
+	display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+.mycenter-content .mycenter-sum-item .num{
+	color: #222;
+    font-size: 16px;
+}
+.mycenter-content  .mycenter-sum-item .desc{
+	font-size: 12px;
+    font-style: normal;
+    color: #a1a1a1;
+}
+/*底部弹出的引导层*/
+#morecontent{
+	
+}
+
+
+
+/*内容列表页*/
+.contentList>.homepage-article-list{
+	margin-top:0 !important;
+	padding-top: 20px;	
+}
+
+
+/*内容详情页*/
+.contentDetail-header .portrait>img{
+	height: 25px;
+    border-radius: 50%;
+    margin-top: 12px;
+    vertical-align: top;
+}
